@@ -38,6 +38,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 nav img{
@@ -82,6 +83,15 @@ nav img{
     background-image: linear-gradient(#ffffffaf, #ffffffaf) , url(./assets/fondo-cielo.jpg);
 }
 
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 0.5rem;
+}
+
 .hero h1{
     text-transform: uppercase;
     font-weight: 300;
@@ -100,11 +110,38 @@ nav img{
 
 .hero h3{
     display: inline;
-    width: 50%;
+    width: 70%;
     font-weight: 400;
     font-size: 1.5rem;
     margin: 10% 10%;
 }
+
+.hero-images{
+    width: 100%;
+    height: 100dvh;
+    position: relative;
+    z-index: 2;
+    padding: 0;
+}
+
+.hero-image:nth-child(1){
+    height: 15rem;
+    width: 10rem;
+    background-color: var(--blue);
+    position: absolute;
+    top: 30px;
+    left: 2%;
+}
+
+.hero-image:nth-child(2){
+    height: 15rem;
+    width: 10rem;
+    background-color: var(--blue);
+    position: absolute;
+    right: 2%;
+    top: 250px;
+}
+
 
 /* work */
 
@@ -125,7 +162,7 @@ nav img{
 }
 
 .figure-work:first-child{
-    margin-top: -6rem;
+    margin-top: -8rem;
 }
 
 .figure-work.right{
@@ -237,7 +274,7 @@ nav img{
 footer{
     background-color: var(--black);
     color: var(--white);
-    padding: 15%;
+    padding: 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -245,11 +282,12 @@ footer{
 }
 
 .rrss{
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 20px;
     margin: 0;
 }
 
@@ -263,14 +301,25 @@ footer i:hover{
     font-size: 30px;
 }
 
+.footer-img{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
 footer img{ 
-    width: 20%;
+    width: 40%;
 }
 
 .directorio{
+    width: 30%;
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.directorio a{
+    margin: 0;
 }
 
 .directorio a:hover{

@@ -25,11 +25,12 @@ hr{
 nav{
     background-color: var(--white);
     height: 50px;
-    padding: 0 16px;
+    padding: 0 30px;
     border-bottom: 1px solid var(--black);
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 nav img{
@@ -52,6 +53,15 @@ nav img{
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(#ffffffaf, #ffffffaf) , url(./assets/fondo-cielo.jpg);
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 0.5rem;
 }
 
 .hero h1{
@@ -212,10 +222,10 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap:3rem;
 }
 
 .rrss{
-    margin: 15% 10%;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -226,8 +236,13 @@ footer i{
     font-size: 30px;
 }
 
+.footer-img{
+    display: flex;
+    justify-content: center;
+}
+
 footer img{ 
-    width: 20%;
+    width: 50%;
 }
 
 .directorio{
