@@ -163,6 +163,11 @@ nav img{
     top: 30px;
 }
 
+.hero-image:hover{
+    background-image: linear-gradient(var(--blue), 50%, var(--blue));  
+}
+
+
 /* work */
 
 .work{

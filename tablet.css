@@ -127,7 +127,8 @@ nav img{
 .hero-image:nth-child(1){
     height: 15rem;
     width: 10rem;
-    background-color: var(--blue);
+    background-image: url(./assets/covid.jpg);
+    background-size: cover;
     position: absolute;
     top: 30px;
     left: 2%;
@@ -136,12 +137,13 @@ nav img{
 .hero-image:nth-child(2){
     height: 15rem;
     width: 10rem;
-    background-color: var(--blue);
+    background-image: url(./assets/dengue.jpg);
+    background-size: cover;
     position: absolute;
     right: 2%;
     top: 250px;
-}
 
+}
 
 /* work */
 
