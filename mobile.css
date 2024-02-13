@@ -45,7 +45,7 @@ nav img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(#ffffffaf, #ffffffaf) , url(../assets/fondo-cielo.jpg);
+    background-image: linear-gradient(#ffffffaf, #ffffffaf) , url(./assets/fondo-cielo.jpg);
 }
 
 .hero h1{
@@ -134,7 +134,7 @@ nav img{
 }
 
 .frase-puentes h3:last-child:after{
-    content: url(assets/carita-feliz.png);
+    content: url(./assets/carita-feliz.png);
     position: relative;
     left:10px;
     top: 10px;
@@ -230,7 +230,6 @@ footer img{
     text-align: center;
 }
 
-
 a{
     color: var(--white);
     line-height: 3rem;
@@ -240,7 +239,7 @@ a{
 
 .derechos{
     padding: 1rem;
-    background-image: linear-gradient(#ffffffaf, #ffffffaf) , url(../assets/fondo-cielo.jpg);
+    background-image: linear-gradient(#ffffffaf, #ffffffaf) , url(./assets/fondo-cielo.jpg);
     margin: 0;
 }
 
