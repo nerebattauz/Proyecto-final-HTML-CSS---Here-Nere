@@ -1,8 +1,8 @@
 /* hojas de estilo */
-@import url(./normalize.css);
-@import url(./mobile.css);
-@import url(./tablet.css);
-@import url(./desktop.css);
+@import url('./normalize.css');
+@import url('./mobile.css');
+@import url('./tablet.css') screen and (min-width: 767px) and (max-width: 1023px);
+@import url('./desktop.css') screen and (min-width: 1024px);
 
 /* fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Sue+Ellen+Francisco&display=swap');
