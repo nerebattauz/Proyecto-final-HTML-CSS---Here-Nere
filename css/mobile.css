@@ -1,0 +1,290 @@
+/* elementos genericos */
+
+.arrow{
+    width: 30px;
+}
+
+.classic-button{
+    padding: 8px;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 8px 0;
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+hr{
+    color: var(--black);
+    margin: 0 0;
+}
+
+/* nav bar */
+
+nav{
+    background-color: var(--white);
+    height: 50px;
+    padding: 0 30px;
+    border-bottom: 1px solid var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav img{
+    width: 120px;
+
+}
+
+.nav-buttons{
+    display: none;
+}
+
+/* hero */
+
+.hero{
+    text-align: center;
+    height: calc(100dvh - 50px);
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#ffffffaf, #ffffffaf) , url(../assets/fondo-cielo.jpg);
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 0.5rem;
+}
+
+.hero h1{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 4.5rem;
+}
+
+
+.hero h2{
+    color: var(--blue);
+    font-family: 'Sue Ellen Francisco';
+    font-weight: 200;
+    font-size: 5rem;
+    margin: -30px 0 0 20%;
+    width: 100%;
+}
+
+.hero h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 10% 10%;
+}
+
+/* work */
+
+.work{
+    padding: 10%;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.figure-work{
+    width: 80%;
+}
+
+.figure-work img{
+    width: 100%;
+}
+
+.figure-work:first-child{
+    margin-top: -150px;
+}
+
+.figure-work.right{
+    align-self: right;
+    margin-left: 20%;
+}
+
+.figure-work h5{
+    font-size: 1rem;
+}
+
+.work-brand{
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+.work-service{
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* SERVICIOS */
+
+.frase-puentes{
+    padding: 10%;
+    text-align: center;
+}
+
+.frase-puentes h3:first-child{
+    color: var(--blue);
+    font-family: var(--corsiva);
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: -2px;
+}
+
+.frase-puentes h3{
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+.frase-puentes h3:last-child:after{
+    content: url(../assets/carita-feliz.png);
+    position: relative;
+    left:10px;
+    top: 10px;
+}
+
+.servicios{
+    padding: 0% 10% 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre-servicio{
+    margin: 16px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.ver-servicios{
+    margin: 10% 0 0 0;
+}
+
+/* CONTACTO */
+
+.contacto{
+    padding: 0% 10% 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--white);
+}
+
+.contacto figure{
+    width: 50%;
+    align-self: center;
+    margin: -30% 0 0 0;
+}
+
+.contacto img{
+    width:100%;
+}
+
+.contacto h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 32px 0 0 0;
+}
+
+.contacto strong{
+    font-weight: 400;
+    font-family: var(--corsiva);
+    font-size: 3rem;
+    color: var(--blue);
+    line-height: 1rem;
+    margin:-5% 0 0 0;
+}
+
+ .ver-contacto{
+    margin: 10% 0 0 0;
+}
+
+/* FOOTER */
+footer{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:3rem;
+}
+
+.rrss{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer i{
+    color: var(--white);
+    font-size: 30px;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+}
+
+footer img{ 
+    width: 50%;
+}
+
+.directorio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.directorio a{
+    color: var(--white);
+    line-height: 3rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.derechos{
+    padding: 1rem;
+    background-image: linear-gradient(#ffffffaf, #ffffffaf) , url(../assets/fondo-cielo.jpg);
+    margin: 0;
+}
+
+.derechos h6{
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (min-width: 500px){
+    .hero h1{
+        font-size: 5rem;
+    }
+    
+    .hero h2{
+        font-size: 5rem;
+    }
+    
+    .hero h3{
+        display: inline;
+        width: 50%;
+        font-size: 1.5rem;
+    }
+}
