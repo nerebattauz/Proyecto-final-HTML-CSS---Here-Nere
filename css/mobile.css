@@ -44,6 +44,8 @@ nav img{
     display: none;
 }
 
+/* HOME */
+
 /* hero */
 
 .hero{
@@ -174,7 +176,7 @@ nav img{
     margin: 10% 0 0 0;
 }
 
-/* CONTACTO */
+/* contacto */
 
 .contacto{
     padding: 0% 10% 20%;
@@ -215,7 +217,7 @@ nav img{
     margin: 10% 0 0 0;
 }
 
-/* FOOTER */
+/* footer */
 footer{
     background-color: var(--black);
     color: var(--white);
@@ -287,4 +289,147 @@ footer img{
         width: 50%;
         font-size: 1.5rem;
     }
+}
+
+/* SERVICES */
+
+/* hero servicios */
+
+.hero-servicios{
+    width: 100dvw;
+    height: calc(100dvh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--black);
+}
+
+.hero-servicios div{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-servicios h1{
+    font-family: var(--corsiva);
+    font-weight: 400;
+    font-size: 4rem;
+    color: var(--blue);
+    position: relative;
+}
+
+.hero-servicios h1::after{
+    content: url(../assets/carita-feliz.png);
+    position: relative;
+    left:10px;
+}
+
+.hero-servicios h3{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.hero-servicios figure{
+    background-image: url(../assets/servicios-general.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60dvh;
+}
+
+
+/* descripción servicios */
+
+
+.descripcion-servicios{
+    padding: 30px;
+    border-bottom: 1px solid var(--black);
+}
+
+.descripcion-servicios h2{
+    text-align: center;
+    font-weight: 400;    
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 2rem 0;
+}
+
+.descripcion-servicios strong{
+    color: var(--blue);
+    font-family: var(--corsiva);
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+    text-align:center;
+}
+
+
+/* elenco servicios */
+
+.elenco-servicios{
+    background-color: var(--white);
+    padding: 30px 30px 80px;
+}
+
+.elenco-servicios h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--blue);
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.tipo-servicio{
+    margin: 20px 0 50px 0;
+}
+
+.elenco-servicios h3{
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+.elenco-servicios p{
+    text-align: left;
+    margin: 20px 0;
+}
+
+.elenco-servicios figure{
+    width: 100%;
+    height: 12rem;
+    margin: 1rem 0;
+    background-size: cover;
+}
+
+.elenco-servicios :nth-child(2) figure{
+    background-image: url(../assets/servicios-grafico2.jpg);
+}
+
+.elenco-servicios :nth-child(3) figure{
+    background-image: url(../assets/servicios-grafico.jpg);
+}
+
+.elenco-servicios :nth-child(4) figure{
+    background-image: url(../assets/servicios-ux.jpg);
+}
+
+.elenco-servicios h4{
+    display: block;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.blanco{
+    background-color: #fff;
 }
