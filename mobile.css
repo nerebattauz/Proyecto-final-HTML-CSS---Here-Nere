@@ -321,7 +321,7 @@ footer img{
 }
 
 .hero-servicios h1::after{
-    content: url(../assets/carita-feliz.png);
+    content: url(./assets/carita-feliz.png);
     position: relative;
     left:10px;
 }
@@ -332,7 +332,7 @@ footer img{
 }
 
 .hero-servicios figure{
-    background-image: url(../assets/servicios-general.jpg);
+    background-image: url(./assets/servicios-general.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -408,15 +408,15 @@ p {
 }
 
 .elenco-servicios :nth-child(2) figure{
-    background-image: url(../assets/servicios-grafico2.jpg);
+    background-image: url(./assets/servicios-grafico2.jpg);
 }
 
 .elenco-servicios :nth-child(3) figure{
-    background-image: url(../assets/servicios-grafico.jpg);
+    background-image: url(./assets/servicios-grafico.jpg);
 }
 
 .elenco-servicios :nth-child(4) figure{
-    background-image: url(../assets/servicios-ux.jpg);
+    background-image: url(./assets/servicios-ux.jpg);
 }
 
 .elenco-servicios h4{
@@ -460,7 +460,7 @@ p {
 }
 
 .hero-work h1::after{
-    content: url(../assets/carita-feliz.png);
+    content: url(./assets/carita-feliz.png);
     position: relative;
     left:10px;
 }
