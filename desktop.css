@@ -416,31 +416,80 @@ footer img{
 /* Elenco servicios */
 
 .elenco-servicios{
-    width: auto;
-}
-
-.elenco-servicios h2{
-    font-size: 2rem;
-    margin: 50px 0;
-}
-
-.forro{
+    padding: 10%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 25%;
-    background-color: rebeccapurple;
+    gap: 50px;
 }
 
-.tipo-servicio{
-
+.elenco-servicios::after{
+    content: "Elegí tu servicio ideal";
+    display: block;
+    width: 80%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--blue);
+    position: absolute;
+    margin-top: -50px;
     
 }
 
-
-
-
-
-.blanco{
-    background-color: #fff;
+.elenco-servicios h2{
+    display: none;
 }
+
+.tipo-servicio{
+    width: 500px;
+}
+
+/* WORK */
+
+/* hero work */
+
+.hero-work{
+    box-sizing:border-box;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.hero-work h1{
+    font-size: 6rem;
+}
+
+.hero-work h3{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    width: 90%;
+}
+
+/* portfolio */
+
+.designs{
+    padding: 10% 10;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.figure-design{
+    width: 40%;
+}
+
+.figure-work img{
+    width: 100%;
+}
+
+.work-brand{
+    font-size: 1rem;
+}
+
+.work-service{
+    font-size: 1rem;
+}
+

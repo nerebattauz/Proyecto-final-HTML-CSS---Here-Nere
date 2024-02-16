@@ -177,7 +177,7 @@ nav img{
 /* CONTACTO */
 
 .contacto{
-    padding: 0% 10% 20%;
+    padding: 0% 10% 10%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -187,9 +187,9 @@ nav img{
 }
 
 .contacto figure{
-    width: 50%;
+    width: 150px;
     align-self: center;
-    margin: -30% 0 0 0;
+    margin: -75px 0 0 0;
 }
 
 .contacto img{
@@ -429,8 +429,75 @@ p {
     margin: 10px 0;
 }
 
-.blanco{
-    background-color: #fff;
-} 
+/* HERO WORK */
 
+/* hero servicios */
 
+.hero-work{
+    width: 100dvw;
+    height: calc(100dvh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--black);
+}
+
+.hero-work div{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-work h1{
+    font-family: var(--corsiva);
+    font-weight: 400;
+    font-size: 4rem;
+    color: var(--blue);
+    position: relative;
+}
+
+.hero-work h1::after{
+    content: url(../assets/carita-feliz.png);
+    position: relative;
+    left:10px;
+}
+
+.hero-work h3{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.hero-work figure{
+    background-image: url(../assets/servicios-general.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60dvh;
+}
+
+/* DESIGNS */
+
+.hero-design{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.figure-design{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-design figure:nth-child(1){
+    background-image: url(./assets/etma-catalogo.png);
+}
+
+.hero-design figure:nth-child(2){
+    background-image: url(./assets/dengue.jpg);
+}

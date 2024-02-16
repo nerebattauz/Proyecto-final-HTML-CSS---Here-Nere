@@ -244,7 +244,7 @@ nav img{
 }
 
 .contacto figure{
-    width: 30%;
+    width: 200px;
     align-self: center;
     margin: -15% 0 0 0;
 }
@@ -375,3 +375,24 @@ footer img{
 .blanco{
     background-color: #fff;
 } 
+
+/* WORK */
+
+/* hero work */
+
+.hero-des{
+    width: 100%;
+}
+
+.hero-work div{
+    margin: auto 10%;
+}
+
+.work-brand{
+    font-size: 1rem;
+}
+
+.work-service{
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
