@@ -429,9 +429,9 @@ p {
     margin: 10px 0;
 }
 
-/* HERO WORK */
+/* WORK */
 
-/* hero servicios */
+/* hero work */
 
 .hero-work{
     width: 100dvw;
@@ -471,8 +471,9 @@ p {
 }
 
 .hero-work figure{
-    background-image: url(../assets/servicios-general.jpg);
-    background-size: cover;
+    background-image: url(./assets/onexit-brand.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     height: 60dvh;
@@ -480,8 +481,9 @@ p {
 
 /* DESIGNS */
 
-.hero-design{
-    padding: 50px;
+.design{
+    width: auto;
+    padding: 80px 30px 100px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -494,10 +496,26 @@ p {
     background-position: center;
 }
 
-.hero-design figure:nth-child(1){
+.design :nth-child(1) figure{
     background-image: url(./assets/etma-catalogo.png);
 }
 
-.hero-design figure:nth-child(2){
+.design :nth-child(2) figure{
+    background-image: url(./assets/global-service.png);
+}
+
+.design :nth-child(3) figure{
     background-image: url(./assets/dengue.jpg);
+}
+
+.design :nth-child(4) figure{
+    background-image: url(./assets/covid.jpg);
+}
+
+.design :nth-child(5) figure{
+    background-image: url(./assets/playfair.jpg);
+}
+
+.design :nth-child(6) figure{
+    background-image: url(./assets/logotipos.jpg);
 }

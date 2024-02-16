@@ -493,3 +493,26 @@ footer img{
     font-size: 1rem;
 }
 
+/* portfolio */
+
+.design {
+    width: auto;
+    padding: 10% 10% 20%;
+    background-color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.design div {
+
+    width: 45%;
+}
+
+.figure-design{
+    width: 100%;
+}
