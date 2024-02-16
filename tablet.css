@@ -240,6 +240,7 @@ nav img{
     flex-direction: column;
     text-align: center;
     background-color: var(--white);
+    border-top: 1px solid var(--black);
 }
 
 .contacto figure{
@@ -344,3 +345,33 @@ footer img{
     font-weight: 600;
     text-align: center;
 }
+
+/* SERVICIOS */
+
+/* hero servicios */
+
+.hero-servicios{
+    width: 100%;
+}
+
+.hero-servicios div{
+    margin: auto 10%;
+}
+
+/* descripción servicios */
+
+.elenco-servicios h2{
+    margin-bottom: -30px;
+}
+
+.descripcion-servicios{
+    padding: 5% 10%;
+}
+
+.tipo-servicio{
+    margin: 10%;
+}
+
+.blanco{
+    background-color: #fff;
+} 

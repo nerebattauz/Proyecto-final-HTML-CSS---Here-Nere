@@ -276,6 +276,7 @@ nav img{
     flex-direction: column;
     text-align: center;
     background-color: var(--white);
+    border-top: 1px solid var(--black);
 }
 
 .contacto figure{
@@ -379,4 +380,67 @@ footer img{
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
+}
+
+/* SERVICES */
+
+/* Hero servicios */
+
+.hero-servicios{
+    box-sizing:border-box;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5%;
+}
+
+.hero-servicios h1{
+    font-size: 6rem;
+}
+
+.hero-servicios h3{
+    font-size: 2rem;
+}
+
+/* Descripcion servicios */
+
+.descripcion-servicios {
+    padding: 5% 20%;
+}
+
+.descripcion-servicios p{
+    font-size: 1.5rem;
+}
+
+/* Elenco servicios */
+
+.elenco-servicios{
+    width: auto;
+}
+
+.elenco-servicios h2{
+    font-size: 2rem;
+    margin: 50px 0;
+}
+
+.forro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 25%;
+    background-color: rebeccapurple;
+}
+
+.tipo-servicio{
+
+    
+}
+
+
+
+
+
+.blanco{
+    background-color: #fff;
 }
