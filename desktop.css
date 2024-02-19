@@ -516,3 +516,33 @@ footer img{
 .figure-design{
     width: 100%;
 }
+
+/* CONTACTO */
+
+.contact{
+    padding: 30px 10%;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    gap: 50px;    
+}
+
+.contact-text{
+    width: 50%;
+}
+
+
+.contact-text div{
+    margin: 1rem 0;
+    line-height: 2rem;
+}
+
+.formulario{
+    width: 50%;
+}
+
+.formulario div{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
